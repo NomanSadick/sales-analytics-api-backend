@@ -1,6 +1,6 @@
 // Basic Lib Import
 const express = require('express');
-const router = require('./src/Routes/api');
+const router = require('./src/routes/salesRoutes');
 const app = new express();
 const bodyParser = require('body-parser');
 
